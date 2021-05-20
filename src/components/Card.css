@@ -1,0 +1,7 @@
+.card {
+  width: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: var(--clr-neon) 4px solid;
+  border-radius: 4px;
+}

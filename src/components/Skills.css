@@ -1,0 +1,9 @@
+.skills {
+  min-height: 100%;
+  
+  background: var(--clr-skills-bg);
+}
+
+.skills-container {
+  padding-bottom: 2rem;
+}

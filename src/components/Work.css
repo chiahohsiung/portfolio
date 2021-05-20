@@ -1,0 +1,15 @@
+.work {
+  min-height: 100%;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  background: var(--clr-work-bg);
+}
+
+.title {
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #B957CE;
+  display: flex;
+  justify-content: center;
+}
