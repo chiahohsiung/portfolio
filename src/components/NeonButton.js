@@ -3,6 +3,6 @@ import './NeonButton.css'
 
 export default function NeonButton(props) {
   return (
-    <a href="#" class="neon-button">{props.children}</a>
+    <a href={`#${props.id}`} class="neon-button">{props.children}</a>
   )
 }

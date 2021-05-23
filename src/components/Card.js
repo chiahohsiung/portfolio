@@ -1,16 +1,18 @@
 import React from 'react'
 import './Card.css'
 
-export default function Card() {
+export default function Card(props) {
+  const {imagePath, title} = props
   return (
     <div className='card'>
       <div className='card-img'>
-        <h3>Image</h3>
+        <img src={imagePath} />
       </div>
-      <div>
-        <h2>Title</h2>
+      <div className='container container-cln'>
+        <h2 className='title'>{title}</h2>
+        <a>Learn More</a>
       </div>
-      <button>Learn More</button>
+      
     </div>
   )
 }

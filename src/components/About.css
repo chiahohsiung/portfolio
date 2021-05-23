@@ -1,8 +1,30 @@
 .about {
   min-height: 100%;
-  display: flex;
-  justify-content: center;
+  color: black;
   /* align-items: center; */
   background: var(--clr-about-bg);
+  
+}
+.about .title {
+  color:var(--clr-section-title);
+}
+.about-content {
+
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background: aliceblue;
+  text-align: center;
 }
 
+
+
+.about-content img {
+  margin-top: 0.5rem;
+  box-shadow: 0 0 0 3px var(--clr-font-white),
+	0 0 0 9px var(--clr-about-bg);
+  width: 10rem;
+  border-radius: 50%;
+  /* border:  4px solid; */
+}

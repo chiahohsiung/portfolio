@@ -9,7 +9,11 @@
 .title {
   padding: 1rem;
   font-size: 1.8rem;
-  color: #B957CE;
+  color: var(--clr-font-white);
   display: flex;
   justify-content: center;
+}
+
+.work-container {
+  padding-bottom: 2rem;
 }

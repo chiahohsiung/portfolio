@@ -3,23 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-45deg, #5C58B6, #3968CB, #3A4193,#B957CE);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background-image: url('../assets/img/space2.jpg');
+  background-size: cover;
+  /* background: #040404; */
+  /* background-size: 400% 400%; */
+  
 }
 
 
-@keyframes gradient {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
-}
 .container {
   display: flex;
   justify-content: center;
@@ -34,16 +25,29 @@
   flex-wrap: wrap;
 }
 .header__name {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 0.07em 0 0 rgba(255, 0, 0, 0.75),
+    -0.04em -0.06em 0 rgba(0, 255, 0, 0.75),
+    0.02em 0.08em 0 rgba(0, 0, 255, 0.75);
+
+  color: var(--clr-font-white);
+}
+
+.header__title {
   font-size: 2rem;
-  color: #B957CE;
+  color: var(--clr-font-white);
+  padding-bottom: 1rem;
 }
 .typewriter {
   display: flex;
   justify-content: center;
 }
 .typewriter h1 {
+  color: var(--clr-font-white);
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid var(--clr-font-white); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -61,5 +65,5 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: var(--clr-font-white); }
 }

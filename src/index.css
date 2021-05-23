@@ -2,9 +2,12 @@
   --clr-neon: hsl(317 100% 54%);
   --clr-neon-green: #69E147;
   --clr-header-bg: #3A4193;
-  --clr-about-bg: #3A4193;
-  --clr-work-bg: #5C58B6;
-  --clr-skills-bg: #5994CE;
+  --clr-font-white: #F8F8FF;
+  --clr-work-bg: #242424;
+  --clr-skills-bg: #333333;
+  --clr-about-bg: #2c2c2c;
+  --clr-section-title: #F8F8FF;
+  --clr-purple: #9F63D2;
 }
 
 *,
@@ -15,6 +18,7 @@
 
 html, body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 body {
   /* min-height: 100vh; */

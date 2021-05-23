@@ -76,7 +76,7 @@ export default function Skills() {
 
   const skillsContent = skills.map((skill, index) => <SkillCard key={index} imgPath={skill.imgPath} title={skill.title} />)
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <div className='title'>
         <h1>Skills</h1>
       </div>

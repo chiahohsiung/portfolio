@@ -3,7 +3,9 @@
   
   background: var(--clr-skills-bg);
 }
-
+.skills .title {
+  color: var(--clr-section-title);
+}
 .skills-container {
   padding-bottom: 2rem;
 }
