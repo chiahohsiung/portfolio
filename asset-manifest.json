@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.25caf271.chunk.css",
+    "main.js": "/portfolio/static/js/main.a5ea6853.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a5ea6853.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c42655de.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c42655de.js.map",
+    "static/js/2.6e94229e.chunk.js": "/portfolio/static/js/2.6e94229e.chunk.js",
+    "static/js/2.6e94229e.chunk.js.map": "/portfolio/static/js/2.6e94229e.chunk.js.map",
+    "static/js/3.e7e864c1.chunk.js": "/portfolio/static/js/3.e7e864c1.chunk.js",
+    "static/js/3.e7e864c1.chunk.js.map": "/portfolio/static/js/3.e7e864c1.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.25caf271.chunk.css.map": "/portfolio/static/css/main.25caf271.chunk.css.map",
+    "static/js/2.6e94229e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6e94229e.chunk.js.LICENSE.txt",
+    "static/media/Git.140fa4d6.png": "/portfolio/static/media/Git.140fa4d6.png",
+    "static/media/chiaho3.832f4068.jpg": "/portfolio/static/media/chiaho3.832f4068.jpg",
+    "static/media/css.36b2d80f.png": "/portfolio/static/media/css.36b2d80f.png",
+    "static/media/graphql.cb96f301.png": "/portfolio/static/media/graphql.cb96f301.png",
+    "static/media/html.f61e377f.png": "/portfolio/static/media/html.f61e377f.png",
+    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/manage.aa652192.png": "/portfolio/static/media/manage.aa652192.png",
+    "static/media/music.62e99fa9.png": "/portfolio/static/media/music.62e99fa9.png",
+    "static/media/nodejs.30ca82b0.png": "/portfolio/static/media/nodejs.30ca82b0.png",
+    "static/media/python.f22d1fce.png": "/portfolio/static/media/python.f22d1fce.png",
+    "static/media/pytorch.2aaa7627.png": "/portfolio/static/media/pytorch.2aaa7627.png",
+    "static/media/react3.1aac9c74.png": "/portfolio/static/media/react3.1aac9c74.png",
+    "static/media/redux.b3b939c6.png": "/portfolio/static/media/redux.b3b939c6.png",
+    "static/media/Header.css": "/portfolio/static/media/space2.e4d8065b.jpg",
+    "static/media/task.7e06f95a.png": "/portfolio/static/media/task.7e06f95a.png",
+    "static/media/tensorflow.0a8b8826.png": "/portfolio/static/media/tensorflow.0a8b8826.png",
+    "static/media/ts.a93c689e.png": "/portfolio/static/media/ts.a93c689e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c42655de.js",
+    "static/js/2.6e94229e.chunk.js",
+    "static/css/main.25caf271.chunk.css",
+    "static/js/main.a5ea6853.chunk.js"
+  ]
+}
