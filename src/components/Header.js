@@ -9,8 +9,8 @@ export default function Header() {
         <div className='header__name'>I'm Jacky Hsiung</div>
         <div className="header__title">React Developer</div>
         <div className='container container-row'>
-          <NeonButtonSm>More About Me</NeonButtonSm>
-          <NeonButtonSm>Previous Projects</NeonButtonSm>
+          <a className='header__btn' href='#work'>Previous Projects</a>
+          <a className='header__btn' href='#about'>More About Me</a>
         </div>
       </div>
     </div>

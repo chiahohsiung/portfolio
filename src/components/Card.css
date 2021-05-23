@@ -19,20 +19,75 @@
 }
 .card a {
   margin-bottom: 0.5rem;
-  padding: 0.5rem;
+  padding: 0 0.5rem 0.5rem;
   border: none;
   border-radius: 4px;
   font-size: 1rem;
-  color: var(--clr-font-white);
-  background: var(--clr-purple);
-  cursor: pointer;
-  transition: all .2s ease-in-out;
+  color: var(--clr-purple);
+
 }
 
+.card .container {
+  cursor: pointer;
+}
 .card .title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
 }
-.card a:hover {
-  transform: scale(1.1); 
+
+.ontraq:hover::after {
+  color: var(--clr-work-bg);
+  margin: 0.8rem;
+  content: 'OnTraq is a web application that help users to manage the readiness and compliance for dental and medical facilities. It helps users save time on tracking, reporting, documentation and task management. '
 } 
+
+.htc:hover::after {
+  color: var(--clr-work-bg);
+  margin: 0.8rem;
+  content: 'The Performance Management helps HR managers at HTC decide employee ratings per year based on various checkpoints with the help of the system including utilization, assessments, and goals. '
+} 
+
+.music-app:hover::after {
+  color: var(--clr-work-bg);
+  margin: 0.8rem;
+  content: 'The web application provides a music tutorial about composing melodies and improvisation. It teaches the music theory and approaches behind improvisation, and provides an interactive playground to practice the techniques.'
+} 
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

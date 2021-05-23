@@ -10,20 +10,23 @@ export default function Work() {
   const projects = [
     {
       imagePath: manage,
-      title: 'Online Management App'
+      title: 'Facility Management App',
+      description: 'ontraq'
     },
     {
       imagePath: task,
-      title: 'Performance Management Platform'
+      title: 'Performance Management App',
+      description: 'htc'
     },
     {
       imagePath: musicApp,
-      title: 'Music Tutorial App'
+      title: 'Music Tutorial Application',
+      description: 'music-app'
     },
 
   ]
   const projectsContent = projects.map((project, index) => (
-    <Card key={index} imagePath={project.imagePath} title={project.title}></Card>
+    <Card key={index} imagePath={project.imagePath} title={project.title} description={project.description}></Card>
   ))
   return (
     <div className='work' id='work'>
