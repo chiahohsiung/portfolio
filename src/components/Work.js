@@ -15,8 +15,8 @@ export default function Work() {
     },
     {
       imagePath: task,
-      title: 'Performance Management App',
-      description: 'htc'
+      title: 'Smart Ordering System',
+      description: 'bbot'
     },
     {
       imagePath: musicApp,

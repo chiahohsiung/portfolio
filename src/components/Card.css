@@ -41,10 +41,10 @@
   content: 'OnTraq is a web application that help users to manage the readiness and compliance for dental and medical facilities. It helps users save time on tracking, reporting, documentation and task management. '
 } 
 
-.htc:hover::after {
+.bbot:hover::after {
   color: var(--clr-work-bg);
   margin: 0.8rem;
-  content: 'The Performance Management helps HR managers at HTC decide employee ratings per year based on various checkpoints with the help of the system including utilization, assessments, and goals. '
+  content: 'The Smart Online Ordering System (SOOS) offers a configurable solution for restaurants, bars, hotels, cinemas, and other hospitality organizations to create digital menus and provide guest-controlled, ordering, and payment.'
 } 
 
 .music-app:hover::after {
