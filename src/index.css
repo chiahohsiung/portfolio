@@ -7,7 +7,8 @@
   --clr-skills-bg: #333333;
   --clr-about-bg: #2c2c2c;
   --clr-section-title: #F8F8FF;
-  --clr-purple: #9F63D2;
+  --clr-purple: #ac66cc;
+  --clr-orange: #ffd384;
 }
 
 *,
@@ -25,7 +26,8 @@ body {
   /* display: grid; */
   /* place-items: center; */
   /* background: var(--clr-bg); */
-  font-family: "Balsamiq Sans", cursive;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Play', sans-serif;
   color: var(--clr-neon);
   /* padding-right: 10rem; */
 }

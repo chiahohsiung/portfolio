@@ -3,17 +3,18 @@
   /* display: flex;
   justify-content: center; */
   /* align-items: center; */
-  background: var(--clr-work-bg);
+  background: var(--clr-orange);
 }
 
 .title {
   padding: 1rem;
   font-size: 1.8rem;
-  color: var(--clr-font-white);
+  color: var(--clr-purple);
   display: flex;
   justify-content: center;
 }
 
 .work-container {
   padding-bottom: 2rem;
+  z-index: 3;
 }

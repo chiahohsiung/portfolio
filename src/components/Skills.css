@@ -1,10 +1,10 @@
 .skills {
   min-height: 100%;
   
-  background: var(--clr-skills-bg);
+  background: var(--clr-orange);
 }
 .skills .title {
-  color: var(--clr-section-title);
+  color: var(--clr-purple);
 }
 .skills-container {
   padding-bottom: 2rem;
