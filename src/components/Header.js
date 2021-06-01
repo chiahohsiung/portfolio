@@ -28,8 +28,8 @@ export default function Header() {
         <img className='header__img svg--pink' src={blob2} />
         <img className='header__img svg--blue' src={blob} />
         <img className='header__img svg--blue' src={blob} />
-        <img className='header__img svg--pink' src={blob3} />
-        <img className='header__img svg--pink' src={blob3} />
+        <img className='header__img svg--orange' src={blob3} />
+        <img className='header__img svg--orange' src={blob3} />
         <img className='header__img svg--pink' src={blob2} />
       </div>
 

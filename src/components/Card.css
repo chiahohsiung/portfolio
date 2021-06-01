@@ -1,10 +1,10 @@
 .card {
   width: 22rem;
-  
-  margin: 1rem;
+  height: 24rem;
+  margin: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background: aliceblue;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   z-index: 4;
 }
 .card:hover {
@@ -12,82 +12,32 @@
 }
 
 .card img {
-  border-radius: 10px 10px 0 0 ;
+  /* border-radius: 10px 10px 0 0 ; */
   width: 22rem;
   height: 12rem;
   object-fit: cover
 }
-.card a {
-  margin-bottom: 0.5rem;
-  padding: 0 0.5rem 0.5rem;
-  border: none;
-  border-radius: 4px;
-  font-size: 1rem;
-  color: var(--clr-purple);
 
-}
 
-.card .container {
-  cursor: pointer;
-}
 .card .title {
   font-size: 1.2rem;
   color: black;
 }
 
-.ontraq:hover::after {
-  color: var(--clr-work-bg);
-  margin: 0.8rem;
-  content: 'OnTraq is a web application that help users to manage the readiness and compliance for dental and medical facilities. It helps users save time on tracking, reporting, documentation and task management. '
-} 
-
-.bbot:hover::after {
-  color: var(--clr-work-bg);
-  margin: 0.8rem;
-  content: 'The Smart Online Ordering System (SOOS) offers a configurable solution for restaurants, bars, hotels, cinemas, and other hospitality organizations to create digital menus and provide guest-controlled, ordering, and payment.'
-} 
-
-.music-app:hover::after {
-  color: var(--clr-work-bg);
-  margin: 0.8rem;
-  content: 'The web application provides a music tutorial about composing melodies and improvisation. It teaches the music theory and approaches behind improvisation, and provides an interactive playground to practice the techniques.'
-} 
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+.card h2 {
+  margin: 0;
 }
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+.card p {
+  margin: 0 1rem 1rem 1rem;
+  color: var(--clr-purple);
 }
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
+.card p>a {
   text-decoration: none;
-  cursor: pointer;
+  font-weight: bold;
+  color: #3edbf0;
+}
+
+.card p>a:hover {
+  /* text-decoration: none; */
+  color: #1eae98;
 }

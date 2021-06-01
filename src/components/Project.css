@@ -1,0 +1,16 @@
+.project {
+  /* border: 10px solid var(--clr-purple); */
+  justify-content: space-around;
+  z-index: 4;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.project img {
+  width: 40%;
+}
+
+.project h2, .project p, .project img {
+  z-index: 3;
+}
+

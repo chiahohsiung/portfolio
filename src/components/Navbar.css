@@ -1,5 +1,7 @@
 .navbar {
+  position: fixed;
   display: flex;
+  z-index: 5;
 }
 
 .navbar img {
@@ -12,7 +14,7 @@
   font-size: 1.5rem;
   color: var(--clr-purple);
   margin: 0 1rem;
-  z-index: 3;
+  z-index: 5;
 }
 
 .navbar a::after {

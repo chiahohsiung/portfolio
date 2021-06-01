@@ -3,7 +3,7 @@ import Card from './Card'
 import './Work.css'
 import musicApp from '../assets/img/music.png'
 import manage from '../assets/img/manage.png'
-import task from '../assets/img/task.png'
+import order from '../assets/img/order.png'
 
 
 export default function Work() {
@@ -11,22 +11,23 @@ export default function Work() {
     {
       imagePath: manage,
       title: 'Facility Management App',
-      description: 'ontraq'
+      description: 'OnTraq helps users to manage the readiness and compliance for dental and medical facilities.'
     },
     {
-      imagePath: task,
+      imagePath: order,
       title: 'Smart Ordering System',
-      description: 'bbot'
+      description: 'The Smart Online Ordering System helps hospitality organizations to create digital menus, and manage ordering and payment.'
     },
     {
       imagePath: musicApp,
       title: 'Music Tutorial Application',
-      description: 'music-app'
+      description: 'The web application introduces the music theory and teachniques for improvisation and approaches behind improvisation, and provides an interactive playground to practice the techniques.',
+      link: 'https://how-to-improvise.herokuapp.com/'
     },
 
   ]
   const projectsContent = projects.map((project, index) => (
-    <Card key={index} imagePath={project.imagePath} title={project.title} description={project.description}></Card>
+    <Card key={index} imagePath={project.imagePath} title={project.title} description={project.description} link={project.link}></Card>
   ))
   return (
     <div className='work' id='work'>
